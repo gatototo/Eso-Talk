@@ -1,0 +1,296 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 /* MINI-7chats DARK --------------------------------------- */\
+/* INDIVIDUAL COLORS BLOCKS */\
+.ms7chats.dark .skControls \{ background-color:#212121\}\
+.ms7chats.dark .skLeftBlock,\
+.ms7chats.dark .skRightBlock \{ background-color:#252525\}\
+.ms7chats.dark .skLeftBlock \{ border-color:#000;\}\
+\
+/* VOLUME COLORS  --------------------------------------*/\
+.ms7chats.dark .skVolume,\
+.ms7chats.dark .skScrubbler    \{ border:1px solid #151515\} \
+.ms7chats.dark .skVolume,\
+.ms7chats.dark .skScrubbler    \{ background-color:#000;\}\
+.ms7chats.dark .skLoad    \{ background-color:#2E2E2E;\}\
+.ms7chats.dark .skTimeRemain,\
+.ms7chats.dark .skVolumeRemain \{ background-color:#9CA4BE\}\
+	\
+					\
+/* FONT COLORS  --------------------------------------*/	 \
+.ms7chats.dark,\
+.ms7chats.dark a \{ color:#fcfcfc; font-weight:bold;\}\
+.ms7chats.dark a:hover \{ color:#b52b09\}\
+.ms7chats.dark  \{ text-shadow: 1px 1px 1px #111;\}\
+.ms7chats.dark .skArtistlist a.active \{ color:#5d5c5c \}\
+\
+\
+/* 7chats LIGHT --------------------------------------- */\
+/* INDIVIDUAL COLORS BLOCKS */\
+.ms7chats.light .skControls \{ background-color:#E1E1E1\}\
+.ms7chats.light .skLeftBlock,\
+.ms7chats.light .skRightBlock \{ background-color:#EBEBEB\}\
+.ms7chats.light .skLeftBlock \{ border-color:#000;\}\
+\
+/* VOLUME COLORS  --------------------------------------*/\
+.ms7chats.light .skVolume,\
+.ms7chats.light .skScrubbler \{ border:1px solid #CACACA\} \
+.ms7chats.light .skVolume,\
+.ms7chats.light .skScrubbler \{ background-color:#fff;\}\
+.ms7chats.light .skLoad \{ background-color:#A41F35;\}\
+.ms7chats.light .skTimeRemain,\
+.ms7chats.light .skVolumeRemain \{ background-color:#611300\}\
+	\
+					\
+/* FONT COLORS  --------------------------------------*/	 \
+.ms7chats.light,\
+.ms7chats.light a \{ color:#000; font-weight:bold;\}\
+.ms7chats.light a:hover \{ color:#b52b09\}\
+.ms7chats.light \{ text-shadow: 0px 1px 0px #b9b2ba;\}\
+.ms7chats.light .skArtistlist a.active \{ color:#333 \}\
+				 \
+/* M7chats RESET & BASIC --------------------------------------- */\
+.ms7chats audio, .ms7chats li, \
+.ms7chats span, .ms7chats strong \{\
+	background: transparent;\
+	border: 0 none;\
+	font-size: 100%;\
+	margin: 0;\
+	padding: 0;\
+	vertical-align: baseline; \
+\}\
+.ms7chats \{\
+	font-size:11px;\
+	font-family:"Century Gothic", "Apple Gothic", "Gill Sans", Tahoma, sans-serif;\
+	width:250px;\
+	height:150px;\
+	overflow:hidden;\
+\}\
+.ms7chats a \{\
+	outline:none;\
+\}\
+.ms7chats .right \{float:left;\}\
+.ms7chats .skControls \{\
+	background-position:left -18px;\
+	background-repeat:repeat-x;\
+	text-align:left;\
+	border-bottom:1px solid #000;\
+	-moz-border-radius-topleft: 10px;\
+	-moz-border-radius-topright: 10px;\
+	-webkit-border-top-left-radius: 10px;\
+	-webkit-border-top-right-radius: 10px;\
+	border-top-left-radius: 10px;\
+	border-top-rigtht-radius: 10px;\
+	margin:0 auto;\
+	height:34px;\
+	overflow:hidden;\
+\}\
+.ms7chats .skAct \{\
+	float:left;\
+	line-height:36px;\
+	padding:0 15px;\
+	width:220px;\
+\}\
+.ms7chats .skLeftBlock \{\
+	position:relative;\
+	background-repeat:repeat;\
+	background-position:left bottom;\
+	float:left;\
+	width:80px;\
+	height:84px;\
+	padding:15px;\
+	border-style:solid;\
+	border-right-width:1px;\
+	-moz-border-radius-bottomleft: 10px;\
+	-webkit-border-bottom-left-radius: 10px;\
+	border-bottom-radius: 10px;\
+\}\
+.ms7chats .skRightBlock \{\
+	background-repeat:repeat;\
+	background-position:right bottom;\
+	float:left;\
+	position:relative;\
+	width:139px;\
+	height:114px;\
+	padding: 0;\
+	text-align:center;\
+	-moz-border-radius-bottomright: 10px;\
+	-webkit-border-bottom-right-radius: 10px;\
+	border-right-radius: 10px;\
+\}\
+.ms7chats .skTime \{ \
+	width:auto;\
+	line-height:28px;\
+	float:none;\
+	text-align: center;\
+	font-size:10px;\
+\}\
+.ms7chats .skMainControl \{ \
+	float:left;\
+	position:relative;\
+	width:97px;\
+	height:33px;\
+	padding: 0 20px 10px 22px;\
+\}\
+.ms7chats .skSocial \{\
+	width:99px;\
+	border:none;\
+	float:left;\
+	padding: 0 20px;\
+\}\
+.ms7chats .skFacebook,\
+.ms7chats .skTwitter,\
+.ms7chats .skDownload \{\
+	display:bock;\
+	float:left;\
+	text-indent:-99999px;\
+\}\
+.ms7chats .skTwitter,\
+.ms7chats .skDownload \{\
+	margin-left:8px;\
+\}\
+.ms7chats .skDownload \{\
+	text-indent:-99999px;\
+\}\
+.ms7chats .skLabel \{\
+	background:transparent url('../img/ms-label.png') left top no-repeat;\
+	width:78px;\
+	height:61px;\
+	position:absolute;\
+	top:15px;\
+	left:15px;\
+	z-index:0;\
+\}\
+.ms7chats .skCover \{\
+	background:transparent url('../img/sk-nocover.png') left top no-repeat;\
+	width:60px;\
+	height:60px;\
+	overflow:hidden;\
+\}\
+.ms7chats .skDownload \{\
+	top:auto;\
+	left:auto;\
+	position:relative;\
+	float:left;\
+\}\
+.ms7chats .skVolumeWidth \{ \
+	width:32px;\
+	position: absolute;\
+	left:15px;\
+	top:32px;\
+	float:none;\
+\}\
+.ms7chats .skVolume \{\
+	width:100%;\
+	height:2px;\
+	position:absolute;\
+	left:0;\
+	bottom:12px;\
+	z-index:6;\
+\}\
+.ms7chats .skVolumeRemain \{\
+	float:none;\
+	height:2px;\
+	position:absolute;\
+	bottom:13px;\
+	left:1px;\
+	z-index:7;\
+	width: 50%;\
+	cursor:pointer;\
+\}\
+.ms7chats .skVolumeControl \{ \
+	float:left;\
+	position:relative;\
+	width:70px;\
+	height:17px;\
+	padding:10px 0 0;\
+\}\
+.skPlay, .skPause \{\
+	margin:0 12px;\
+\}\
+.ms7chats .skHeart,\
+.ms7chats .skPlay,\
+.ms7chats .skPause,\
+.ms7chats .skForwards,\
+.ms7chats .skBackwards,\
+.ms7chats .skMute \{\
+	display: block;\
+	float:left;\
+	cursor:pointer;\
+\}\
+.ms7chats .skPause.inactive,\
+.ms7chats .skPlay.inactive,\
+.ms7chats .skLoopOn.inactive,\
+.ms7chats .skLoopOff.inactive \{\
+	display: none;\
+\}\
+\
+.ms7chats .active \{\
+	display: block;\
+	-moz-opacity:1;\
+	filter:alpha(opacity=100);\
+	opacity:1.00;	\
+\}\
+\
+.ms7chats .skLoud \{\
+	float:right;\
+	cursor:pointer;\
+\}\
+.ms7chats .skMute \{\
+	float:left;\
+	cursor:pointer;\
+\}\
+\
+/* THEME LIGHT */\
+.ms7chats.light .skBackwards,\
+.ms7chats.light .skForwards,\
+.ms7chats.light .skLoud,\
+.ms7chats.light .skMute,\
+.ms7chats.light .skPlay,\
+.ms7chats.light .skPause,\
+.ms7chats.light .skDownload,\
+.ms7chats.light .skFacebook,\
+.ms7chats.light .skTwitter \{ background-image: url('../img/light/sk-light.png'); \}\
+.ms7chats.light .skLeftBlock \{ background-image: url('../img/light/sk-leftblock.png'); \}\
+.ms7chats.light .skRightBlock \{ background-image: url('../img/light/sk-rightblock.png'); \}\
+.ms7chats.light .skControls \{ background-image:url('../img/light/sk-controlbg.png'); \}\
+\
+/* THEME DARK */\
+.ms7chats.dark .skBackwards,\
+.ms7chats.dark .skForwards,\
+.ms7chats.dark .skLoud,\
+.ms7chats.dark .skMute,\
+.ms7chats.dark .skPlay,\
+.ms7chats.dark .skPause,\
+.ms7chats.dark .skDownload,\
+.ms7chats.dark .skFacebook,\
+.ms7chats.dark .skTwitter \{ background-image: url('../img/dark/sk-dark.png'); \}\
+.ms7chats.dark .skLeftBlock \{ background-image: url('../img/dark/sk-leftblock.png'); \}\
+.ms7chats.dark .skRightBlock \{ background-image: url('../img/dark/sk-rightblock.png'); \}\
+.ms7chats.dark .skControls \{ background-image:url('../img/dark/sk-controlbg.png'); \}\
+\
+.ms7chats .skBackwards \{ background-position:  0 0; height: 32px; width: 20px; \}\
+.ms7chats .skBackwards:hover \{ background-position:  0 -32px; \}\
+.ms7chats .skForwards \{ background-position:  0 -64px; height: 32px; width: 20px; \}\
+.ms7chats .skForwards:hover \{ background-position:  0 -96px; \}\
+.ms7chats .skPause \{ background-position:  -50px -132px; height: 34px; width: 32px; \}\
+.ms7chats .skPause:hover \{ background-position:  -50px -167px; \}\
+.ms7chats .skPlay \{ background-position:  -82px -132px; height: 34px; width: 32px; \}\
+.ms7chats .skPlay:hover \{ background-position:  -82px -168px; \}\
+.ms7chats .skLoud \{ background-position:  0 -228px; height: 16px; width: 18px; \}\
+.ms7chats .skLoud:hover \{ background-position:  0 -245px; \}\
+.ms7chats .skMute \{ background-position:  0 -265px; height: 16px; width: 18px; \}\
+.ms7chats .skMute:hover \{ background-position:  0 -284px; \}\
+.ms7chats .skDownload \{ background-position:  -78px -207px; height: 33px; width: 26px; \}\
+.ms7chats .skDownload:hover \{ background-position:  -78px -241px; \}\
+.ms7chats .skFacebook \{ background-position:  -50px -64px; height: 33px; width: 28px; \}\
+.ms7chats .skFacebook:hover \{ background-position:  -50px -98px; \}\
+.ms7chats .skTwitter \{ background-position:  -78px -64px; height: 33px; width: 28px; \}\
+.ms7chats .skTwitter:hover \{ background-position:  -78px -98px; \}\
+}

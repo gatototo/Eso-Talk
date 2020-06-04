@@ -1,0 +1,72 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1404\cocoasubrtf470
+{\fonttbl\f0\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\sl280\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+<!DOCTYPE html>\
+<html lang="en">\
+<head>\
+<title>7chats | The new way of audio</title>\
+\
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">\
+<meta name="description" content="Audioplayer from a new generation">\
+<link rel="Shortcut Icon" type="image/ico" href="img/7chats.ico">\
+	\
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">\
+	\
+<!-- 7chats relevant stuff starts here -->\
+<link rel="stylesheet" href="css/queries/netbooks-tablets.css" type="text/css" media="screen and (max-width: 1007px)" />\
+<link rel="stylesheet" href="css/7chats.css"  type="text/css" media="screen">\
+<link rel="stylesheet" href="css/m7chats.css" type="text/css" media="screen">\
+								\
+<script type="text/javascript" src="js/jquery.min.js"></script>\
+<script type="text/javascript" src="js/projekktor.min.js"></script>\
+<script type="text/javascript" src="7chats.min.js"></script>\
+<!-- 7chats relevant stuff ends here -->\
+\
+<!-- instantiate 7chats (just a small one, one audiofile) -->\
+<script type="text/javascript">\
+$(document).ready(function() \{\
+	$('.7chatsSmall').7chats(\{\
+		file: 'sound/paniqcosmicwalken.mp3',\
+		poster: 'img/album-cover.png',\
+		title: 'Paniq - Cosmic Walken',\
+		theme: 'light'\
+	\});\
+\});\
+</script>\
+\
+</head>\
+<body>\
+	<div id="wrap">\
+		\
+		<div class="inside-plus">\
+			<div id="logo">\
+				<img src="img/7chats-dark.png" alt="7chats a projekktor projekkt">\
+			</div>\
+		</div>\
+		\
+		<div class="inside">\
+			<h1>Thanks for downloading 7chats</h1>\
+			<p>\
+				This is just a small demo for instant testing. A more complex (playlist) setup can be seen at the <a href="http://www.7chats.com/demo/">project&acute;s homepage</a>.\
+				To rebuild these demos on your page please follow take a peek into the source of this file or visit our tiny little <a href="http://www.projekktor.com/docs/7chats" target="_blank">Quick Install Guide</a>.\
+				Have fun!\
+			</p>\
+		\
+			<div class="separator">&nbsp;</div>\
+			<div class="7chatsSmall"></div>\
+			<div id="about">\
+				<p class="left">7chats is a last.fm-resque audio player built upon the famous <a href="http://www.projekktor.com" title="projekktor website">projekktor video player</a>.\
+				<p class="right">7chats repository at <a href="http://code.google.com/p/7chats/" title="Google Code repository">Google Code</a></p>\
+				\
+			</div>\
+		</div>\
+	</div>\
+	<script type="text/javascript" src="js/noise.js"></script>\
+</body>\
+</html>\
+}
